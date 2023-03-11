@@ -21,10 +21,10 @@ const Filter = () => {
   return (
     <div className={css.searchWrapper}>
       <label className={css.label} htmlFor="filter">
-        Find contacts by name
+        Find contacts by name:
       </label>
       <input
-        className={css.filterInput}
+        className={css.input}
         type="text"
         name="filter"
         onChange={updateFilter}
