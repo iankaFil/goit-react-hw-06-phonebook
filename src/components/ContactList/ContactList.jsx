@@ -14,7 +14,7 @@ const ContactList = () => {
   };
 
   return (
-    <ol className={css.container}>
+    <ul>
       {contacts.map(contact => (
         <li className={css.contactItem} key={contact.id}>
           <span>{contact.name}: </span>
@@ -28,7 +28,7 @@ const ContactList = () => {
           </button>
         </li>
       ))}
-    </ol>
+    </ul>
   );
 };
 
